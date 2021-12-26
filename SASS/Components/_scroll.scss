@@ -1,0 +1,30 @@
+.scroll {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    transition: all 0.3s;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    transform: translateY(100%);
+    color: #fff;
+    line-height: 42px;
+    font-size: $fs-0 + 2;
+    opacity: 0;
+    i {
+        font-weight: $fw-1;
+    }
+    &:hover {
+        background: $color-yellow-0;
+        color: $color-black-0;
+    }
+    @media screen and (max-width: 805px) {
+        display: none;
+    }
+}
+
+.scrollTop__appear {
+    opacity: 1;
+    transform: translateY(0);
+}
