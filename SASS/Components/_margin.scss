@@ -1,7 +1,0 @@
-@for $var from 1 through 12 {
-    .mgb-#{$var * 10} {
-        margin-bottom: $var * 10px;
-        display: inline-block;
-        width: 100%;
-    }
-}
